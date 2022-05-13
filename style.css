@@ -9,9 +9,12 @@ body{
     background-color: #1F2937;
     color: #f9faf8;
     display: flex;
-    padding: 0px 150px;
+    padding: 0px 20%;
     align-items: center;
     justify-content: space-between;
+    /*max-width: 1320px;*/
+    
+    
 }
 .header_logo{
     font-size: 24px;
@@ -29,49 +32,110 @@ a{
 }
 .content_1{
     background-color: #1F2937;
-    padding: 60px 150px;
+    padding: 60px 20%;
     display: flex;
-    justify-content: space-between;
-    max-height: 200px;
-    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* max-height: 300px; */
+
+    gap: 20px; 
+    /* flex-wrap: wrap; */
     
 }
 .cont1_title{
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
 }
 .cont1_text{
     font-size: 18px;
     color: #e5e7eb;
+
 }
 .button_signup1{
     background-color: #3882f6;
     border-radius: 5px;
     margin: 0;
-    padding: 4px 14px;
+    padding: 8px 20px;
     border: 0;
     color: #f9faf8;
     font-weight: bold;
 }
 .image1{
+    
     display: flex;
+    /* align-content: center; */
     justify-content: end;
+    
     
  }
  img{
-     width: auto;
-     height: 180px;
+     /* width: auto; */
+     height: 250px;  
+     /* max-width: 80%; */
+     /* max-height: 80%;  */
+     /* max-width: 100%; */
      object-fit: contain;
     
  }
  .cont1_left{
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
+     justify-content: center;
+     /* padding-right: auto; */
+     gap: 10px;
+     flex-basis: 400px;
+     /* max-width: 45%; */
+     
           
  }
  .cont1_left, .image1{
-     width: 50%;
+     /* width: 45%; */
+     /* max-width: 50%; */
      border: 2px solid red;
+     
+     
  }
+ .content_2{
+     display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     
+     /* max-height: 200px; */
+     padding: 40px 200px;
+     gap: 15px;
+     
+}
+.content_pix{
+    display: flex;
+    
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.header_2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    /* border: 2px solid red; */
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+}

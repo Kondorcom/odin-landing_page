@@ -11,8 +11,10 @@ body{
     display: flex;
     padding: 0px 20%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 400px;
     /*max-width: 1320px;*/
+
     
     
 }
@@ -151,29 +153,68 @@ a{
     justify-content: center;
     align-items:center;
     gap: 10px;
-    
-   
-    
-    
-}
+        }
 .cont3_inner{
     max-width: 680px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .cont3_quote{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;  
-    /* border: 2px solid red;       */
-    
-   
-    
+    /* border: 2px solid red;       */      
 }   
 .cont3_sign{
     font-weight: bold;
     margin-left: auto;
     /* border: 2px solid red; */
     
+}
+.content_4{
+    background-color: #3882f6;
+    /* padding: 60px 20%; */
+    padding: 35px 80px;
+    /* margin: 60px 20%; */
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    color: #f9faf8;
+    border-radius: 5px;
+
+
+}
+.button_signup2{
+    border-radius: 5px;
+    margin: 0;
+    padding: 8px 20px;
+    color: #f9faf8;
+    /* border: 3px; */
+    border: 2px solid white; 
+    background-color: #3882f6;
+    font-weight: bold;
+    
+}
+.cont4_up{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cont4_left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 0px 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+
 }
